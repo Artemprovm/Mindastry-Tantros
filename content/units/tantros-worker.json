@@ -1,0 +1,15 @@
+{
+  "type": "flying",
+  "name": "Тантрис-Рабочий",
+  "description": "Стартовый дрон.",
+  "speed": 3,
+  "accel": 0.1,
+  "drag": 0.1,
+  "health": 150,
+  "engineSize": 0,
+  "flying": true,
+  "mineSpeed": 6,
+  "mineTier": 1,
+  "buildSpeed": 0.8,
+  "coreUnitDock": true
+}

@@ -1,0 +1,10 @@
+{
+  "type": "OreBlock",
+  "name": "Жила тантрита",
+  "localizedName": "Жила тантрита",
+  "itemDrop": "tantrite-item",
+  "variants": 1,
+  "oreDefault": true,
+  "oreThreshold": 0.85,
+  "oreScale": 23.5
+}

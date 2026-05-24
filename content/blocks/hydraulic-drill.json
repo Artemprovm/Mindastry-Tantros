@@ -1,0 +1,21 @@
+{
+  "type": "Drill",
+  "name": "Гидравлический бур",
+  "description": "Базовый подводный бур.",
+  "size": 2,
+  "tier": 1,
+  "drillTime": 300,
+  "requirements": [
+    { "item": "tantrite-item", "amount": 25 }
+  ],
+  "category": "production",
+
+  "research": {
+    "parent": "tantros-core",
+    "planet": "tantros",
+    "requirements": [
+      { "item": "tantrite-item", "amount": 50 }
+    ]
+  }
+}
+
