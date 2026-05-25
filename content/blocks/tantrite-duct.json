@@ -1,0 +1,10 @@
+{
+  "type": "Duct",
+  "name": "Тантритовый проток",
+  "localizedName": "Тантритовый проток",
+  "description": "Труба для транспортировки ресурсов. Перемещает ресурсы поштучно.",
+  "category": "distribution",
+  "health": 45,
+  "speed": 10.0,
+  "variants": 5
+}

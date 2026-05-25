@@ -6,7 +6,15 @@
   "accel": 0.1,
   "drag": 0.1,
   "health": 150,
-  "engineSize": 0,
+  "engines": [
+    {
+      "x": 0,
+      "y": -6,
+      "radius": 3.5,
+      "color": "feb380"
+    }
+  ],
+  "alwaysUnlocked": true,
   "flying": true,
   "mineSpeed": 6,
   "mineTier": 1,

@@ -6,5 +6,7 @@
   "variants": 1,
   "oreDefault": true,
   "oreThreshold": 0.85,
-  "oreScale": 23.5
+  "oreScale": 23.5,
+  "planet": "aquaria",
+  "alwaysUnlocked": true
 }

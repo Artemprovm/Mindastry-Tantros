@@ -6,9 +6,5 @@
   "health": 1200,
   "itemCapacity": 1000,
   "unitType": "tantros-worker",
-  "requirements": [
-    { "item": "tantrite-item", "amount": 1000 }
-  ],
-  "category": "effect",
-  "alwaysUnlocked": true
+  "category": "effect"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "ParticleWeather",
+  "name": "Подводная среда",
+  "localizedName": "Подводная среда",
+  "color": "4facfeaa",
+  "noiseColor": "002f6c88",
+  "particleRegion": "particle",
+  "sizeMin": 1,
+  "sizeMax": 3,
+  "particles": 90,
+  "speedMin": 0.1,
+  "speedMax": 0.4,
+  "attrs": {
+    "heat": -0.5,
+    "water": 1.0
+  },
+  "status": "wet",
+  "opacityMultiplier": 0.6
+}

@@ -1,21 +1,13 @@
 {
-  "type": "Drill",
-  "name": "Гидравлический бур",
-  "description": "Базовый подводный бур.",
-  "size": 2,
-  "tier": 1,
-  "drillTime": 300,
-  "requirements": [
-    { "item": "tantrite-item", "amount": 25 }
-  ],
-  "category": "production",
-
-  "research": {
-    "parent": "tantros-core",
-    "planet": "tantros",
-    "requirements": [
-      { "item": "tantrite-item", "amount": 50 }
-    ]
+  "name": "Стартовая Высадка",
+  "localizedName": "Стартовая Высадка",
+  "description": "Свободный режим постройки без ограничений и технологий.",
+  "planet": "aquaria",
+  "sector": 0,
+  "alwaysUnlocked": true,
+  "difficulty": 1,
+  "planetRules": {
+    "infiniteResources": true,
+    "bannedBlocks": []
   }
 }
-
