@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Large Tantrite Wall",
+  "localizedName": "Большая тантритовая стена",
+  "description": "Защищает строения от вражеских снарядов. Закрывает площадь 2х2.",
+  "size": 2,
+  "health": 600,
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 24 }
+  ],
+  "category": "defense",
+  "research": "tantros-expansion-tantrite-wall"
+}

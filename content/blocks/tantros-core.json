@@ -5,7 +5,7 @@
   "description": "Первое подводное ядро Тантроса.",
   "size": 3,
   "health": 1200,
-  "itemCapacity": 1000,
+  "itemCapacity": 4000,
   "unitType": "tantros-expansion-tantros-worker",
   "category": "effect",
   "alwaysUnlocked": true,

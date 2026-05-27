@@ -21,7 +21,7 @@
       "rotate": true,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 11,
+        "damage": 15,
         "speed": 4.0,
         "lifetime": 60.0,
         "homingPower": 0.15,

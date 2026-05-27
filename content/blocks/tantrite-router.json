@@ -1,0 +1,15 @@
+{
+  "type": "Router",
+  "name": "Tantrite Router",
+  "localizedName": "Тантритовый маршрутизатор",
+  "description": "Равномерно распределяет поступающие ресурсы по трем направлениям.",
+  "size": 1,
+  "health": 25,
+  "itemCapacity": 10,
+  "speed": 6.0,
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 4 }
+  ],
+  "category": "distribution",
+  "research": "tantros-expansion-tantrite-duct"
+}

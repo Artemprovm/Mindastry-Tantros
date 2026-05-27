@@ -1,0 +1,21 @@
+{
+  "type": "BufferedItemBridge",
+  "name": "Tantrite Bridge Conveyor",
+  "localizedName": "Тантритовый подземный мост",
+  "description": "Переносит ресурсы под землей. Связь отображается в виде темной линии.",
+  "size": 1,
+  "health": 45,
+  "range": 4,
+  "speed": 10.0,
+  "bufferCapacity": 20,
+  
+  "fadeIn": false,
+  "moveArrows": false,
+  "tintColor": "1a1a1a", 
+  
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 6 }
+  ],
+  "category": "distribution",
+  "research": "tantros-expansion-tantrite-duct"
+}

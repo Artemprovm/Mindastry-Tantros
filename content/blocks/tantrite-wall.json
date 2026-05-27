@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Tantrite Wall",
+  "localizedName": "Тантритовая стена",
+  "description": "Защищает строения от вражеских снарядов.",
+  "size": 1,
+  "health": 150,
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 6 }
+  ],
+  "category": "defense",
+  "research": "tantros-expansion-tantros-core"
+}

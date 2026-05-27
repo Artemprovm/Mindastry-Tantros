@@ -1,0 +1,15 @@
+{
+  "type": "Router",
+  "name": "Tantrite Distributor",
+  "localizedName": "Тантритовый распределитель",
+  "description": "Большой маршрутизатор. Распределяет ресурсы во всех направлениях на площади 2х2.",
+  "size": 2,
+  "health": 50,
+  "itemCapacity": 20,
+  "speed": 8.0,
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 16 }
+  ],
+  "category": "distribution",
+  "research": "tantros-expansion-tantrite-router"
+}
