@@ -1,0 +1,31 @@
+{
+  "type": "ItemTurret",
+  "name": "Тантритовая Турель",
+  "description": "первая оборонительная турель для защиты секторов на новой планете.",
+  "health": 100,
+  "size": 1,
+  "reload": 30.0,
+  "range": 180.0,
+  "inaccuracy": 2.0,
+  "rotateSpeed": 5.0,
+  "ammoTypes": {
+    "tantros-expansion-tantrite-item": {
+      "type": "MissileBulletType",
+      "speed": 4.0,
+      "damage": 35,
+      "bulletWidth": 8,
+      "bulletHeight": 12,
+      "shrinkY": 0,
+      "homingPower": 0.08,
+      "homingRange": 50.0,
+      "lifetime": 50.0,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion"
+    }
+  },
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 25}
+  ],
+  "category": "turret",
+  "research": "tantros-expansion-tantros-core"
+}

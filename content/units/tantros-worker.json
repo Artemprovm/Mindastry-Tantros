@@ -11,7 +11,7 @@
   "alwaysUnlocked": true,
   "mineSpeed": 6.0,
   "mineTier": 1,
-  "buildSpeed": 0.8,
+  "buildSpeed": 0.5,
   "coreUnitDock": true,
   "mineItems": [
     "tantros-expansion-tantrite-item"

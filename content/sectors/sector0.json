@@ -6,5 +6,9 @@
   "sector": 0,
   "alwaysUnlocked": true,
   "captureWave": 10,
-  "difficulty": 1
+  "difficulty": 1,
+  
+  "rules": {
+    "env": 64
+  }
 }

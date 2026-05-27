@@ -4,7 +4,7 @@
   "localizedName": "Гидравлический бур",
   "description": "Базовый бур для добычи начальных ресурсов.",
   "size": 2,
-  "health": 160,
+  "health": 50,
   "tier": 2,
   "drillTime": 300,
   "requirements": [
