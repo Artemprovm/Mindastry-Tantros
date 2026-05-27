@@ -1,23 +1,27 @@
 {
   "type": "flying",
   "name": "Тантрис-Рабочий",
+  "localizedName": "Тантрис-Рабочий",
   "description": "Стартовый дрон.",
-  "speed": 3,
+  "speed": 3.0,
   "accel": 0.1,
   "drag": 0.1,
-  "health": 150,
+  "health": 150.0,
+  "flying": true,
+  "alwaysUnlocked": true,
+  "mineSpeed": 6.0,
+  "mineTier": 1,
+  "buildSpeed": 0.8,
+  "coreUnitDock": true,
+  "mineItems": [
+    "tantros-expansion-tantrite-item"
+  ],
   "engines": [
     {
-      "x": 0,
-      "y": -6,
+      "x": 0.0,
+      "y": -6.0,
       "radius": 3.5,
       "color": "feb380"
     }
-  ],
-  "alwaysUnlocked": true,
-  "flying": true,
-  "mineSpeed": 6,
-  "mineTier": 1,
-  "buildSpeed": 0.8,
-  "coreUnitDock": true
+  ]
 }

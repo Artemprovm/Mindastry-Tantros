@@ -1,0 +1,43 @@
+{
+  "type": "hover",
+  "name": "Вражеский Корабль",
+  "localizedName": "Вражеский Корабль",
+  "description": "Боевой корабль.",
+  "speed": 1.2,
+  "accel": 0.06,
+  "drag": 0.06,
+  "health": 300,
+  "armor": 3,
+  "flying": false,
+  "isEnemy": true,
+  "hitSize": 14,
+  "shadowElevation": 0.0,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 4,
+      "reload": 45,
+      "mirror": false,
+      "rotate": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 11,
+        "speed": 4.0,
+        "lifetime": 60.0,
+        "homingPower": 0.15,
+        "homingRange": 120.0,
+        "width": 6,
+        "height": 10,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "backColor": "feb380",
+        "frontColor": "ffffff",
+        "trailColor": "feb380",
+        "trailWidth": 2,
+        "trailLength": 8,
+        "despawnEffect": "blastExplosion",
+        "hitEffect": "blastExplosion"
+      }
+    }
+  ]
+}

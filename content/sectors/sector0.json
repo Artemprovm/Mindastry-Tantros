@@ -2,19 +2,9 @@
   "name": "Стартовая Высадка",
   "localizedName": "Стартовая Высадка",
   "description": "Первый сектор на новой планете. Добудьте первый Тантрит.",
-  "planet": "aquaria",
+  "planet": "tantros-expansion-aquaria",
   "sector": 0,
   "alwaysUnlocked": true,
   "captureWave": 10,
-  "difficulty": 1,
-  "planetRules": {
-    "weather": [
-      {
-        "weather": "tantros-expansion-underwater",
-        "intensity": 1.0,
-        "duration": 999999,
-        "always": true
-      }
-    ]
-  }
+  "difficulty": 1
 }

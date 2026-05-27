@@ -1,13 +1,16 @@
 {
-  "name": "Стартовая Высадка",
-  "localizedName": "Стартовая Высадка",
-  "description": "Свободный режим постройки без ограничений и технологий.",
-  "planet": "aquaria",
-  "sector": 0,
-  "alwaysUnlocked": true,
-  "difficulty": 1,
-  "planetRules": {
-    "infiniteResources": true,
-    "bannedBlocks": []
-  }
+  "type": "Drill",
+  "name": "Hydraulic Drill",
+  "localizedName": "Гидравлический бур",
+  "description": "Базовый бур для добычи начальных ресурсов.",
+  "size": 2,
+  "health": 160,
+  "tier": 2,
+  "drillTime": 300,
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 12 }
+  ],
+  "category": "production",
+  "research": "tantros-expansion-tantros-core"
+  
 }

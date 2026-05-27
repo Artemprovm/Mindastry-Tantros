@@ -2,11 +2,9 @@
   "type": "OreBlock",
   "name": "Жила тантрита",
   "localizedName": "Жила тантрита",
-  "itemDrop": "tantrite-item",
+  "itemDrop": "tantros-expansion-tantrite-item",
   "variants": 1,
   "oreDefault": true,
   "oreThreshold": 0.85,
-  "oreScale": 23.5,
-  "planet": "aquaria",
-  "alwaysUnlocked": true
+  "oreScale": 23.5
 }

@@ -5,6 +5,10 @@
   "description": "Труба для транспортировки ресурсов. Перемещает ресурсы поштучно.",
   "category": "distribution",
   "health": 45,
-  "speed": 10.0,
-  "variants": 5
+  "speed": 4,
+  "itemCapacity": 1,
+  "requirements": [
+    { "item": "tantros-expansion-tantrite-item", "amount": 1 }
+  ],
+  "research": "tantros-expansion-tantros-core"
 }

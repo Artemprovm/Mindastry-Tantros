@@ -1,16 +1,12 @@
 {
-  "type": "Planet",
   "name": "aquaria",
   "localizedName": "Тантрос (Кастомный)",
   "description": "Заброшеная планета.",
+  "parent": "sun",
+  "accessible": true,
   "alwaysUnlocked": true,
   "startSector": 0,
   "sectorSize": 1,
-  "clearSectorOnLoss": true,
-  "allowLaunchLoadout": false,
-  "allowLaunchSchematics": false,
-  "allowWaveSimulation": true,
-  "allowSectorInvasion": true,
   "defaultCore": "tantros-expansion-tantros-core",
   "mesh": {
     "type": "NoiseMesh",

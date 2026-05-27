@@ -1,0 +1,19 @@
+{
+  "type": "MissileBulletType",
+  "damage": 11,
+  "speed": 4.0,
+  "lifetime": 60.0,
+  "homingPower": 0.15,
+  "homingRange": 120.0,
+  "width": 6,
+  "height": 10,
+  "shrinkX": 0,
+  "shrinkY": 0,
+  "backColor": "feb380",
+  "frontColor": "ffffff",
+  "trailColor": "feb380",
+  "trailWidth": 2,
+  "trailLength": 8,
+  "despawnEffect": "blastExplosion",
+  "hitEffect": "blastExplosion"
+}
