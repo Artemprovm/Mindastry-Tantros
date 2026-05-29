@@ -1,0 +1,34 @@
+{
+  "type": "ItemTurret",
+  "name": "Зенитка Изгородь",
+  "description": "Специализированная турель противовоздушной обороны (ПВО). Ведет огонь только по воздушным целям, используя железо. Бесполезна против наземных врагов.",
+  "health": 100,
+  "size": 2,
+  "reload": 30.0,
+  "range": 160,
+  "targetGround": false,
+  "targetAir": true,
+  "recoil": 1.5,
+  "shootSound": "shootSnap",
+  "category": "turret",
+  
+  "ammoTypes": {
+    "iron-item": {
+      "type": "FlakBulletType",
+      "speed": 4.5,
+      "damage": 20,
+      "splashDamage": 25,
+      "splashDamageRadius": 24,
+      "width": 6,
+      "height": 8,
+      "ammoMultiplier": 4,
+      "hitEffect": "flakExplosion",
+      "collidesGround": false
+    }
+  },
+
+  "requirements": [
+    { "item": "iron-item", "amount": 35 }
+  ],
+  "research": "tantros-expansion-tantrite-turret"
+}

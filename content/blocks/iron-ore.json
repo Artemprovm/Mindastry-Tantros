@@ -1,0 +1,7 @@
+{
+  "type": "OreBlock",
+  "name": "Жила железа",
+  "localizedName": "Жила железа",
+  "itemDrop": "iron-item",
+  "variants": 3
+}

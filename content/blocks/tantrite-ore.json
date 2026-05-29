@@ -3,7 +3,7 @@
   "name": "Жила тантрита",
   "localizedName": "Жила тантрита",
   "itemDrop": "tantros-expansion-tantrite-item",
-  "variants": 1,
+  "variants": 3,
   "oreDefault": true,
   "oreThreshold": 0.85,
   "oreScale": 23.5

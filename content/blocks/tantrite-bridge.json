@@ -6,7 +6,7 @@
   "size": 1,
   "health": 45,
   "range": 4,
-  "speed": 10.0,
+  "speed": 13.0,
   "bufferCapacity": 20,
   
   "fadeIn": false,

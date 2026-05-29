@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Вспан",
+  "description": "Тяжелый бомбардировщик Тантроса. Наносит огромный урон по площади. При уничтожении создает мощную световую вспышку.",
+  "speed": 1.4,
+  "accel": 0.04,
+  "drag": 0.016,
+  "flying": true,
+  "health": 450,
+  "engineSize": 3.5,
+  "engineColor": "ffaa5f",
+  "circleTarget": true,
+  "faceTarget": false,
+  "hitSize": 14,
+  "itemCapacity": 0,
+  
+  "engines": [
+    { "x": -5, "y": -8, "radius": 3 },
+    { "x": 5, "y": -8, "radius": 3 }
+  ],
+
+  "weapons": [
+    {
+      "minShootVelocity": 0.01,
+      "x": 0,
+      "y": 0,
+      "shootY": 0,
+      "reload": 45,
+      "shootCone": 180,
+      "ejectEffect": "none",
+      "shootSound": "candle",
+      "ignoreRotation": true,
+      "bullet": {
+        "type": "BombBulletType",
+        "damage": 0,
+        "splashDamage": 60,
+        "splashDamageRadius": 32,
+        "width": 10,
+        "height": 14,
+        "hitEffect": "flakExplosion",
+        "shootEffect": "none",
+        "smokeEffect": "none",
+        "status": "burning",
+        "statusDuration": 120
+      }
+    }
+  ],
+  
+  "deathExplosionEffect": "shockwave"
+}
